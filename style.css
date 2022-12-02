@@ -1,0 +1,19 @@
+html, body {
+    margin: 0; /* поле */
+    padding: 0; /* набивка */
+    font-family: Arial; /* семейство шрифтов: Arial */
+}
+
+.header {
+    background-color: #5ae818; /* фоновый цвет */
+}  
+
+.container {
+    width: 1000px; /* ширина: 1210 пикселей; контейнера*/
+    padding: 0 260px; /* отступ: 0 260px; (центровак Заголовка) */
+    margin: 0 auto; /* поле: 0 авто; */
+    box-sizing: border-box; /* бокс - проклейка: бордюр-бокс; (box-sizing: граница-коробка;) */
+} 
+
+
+ 

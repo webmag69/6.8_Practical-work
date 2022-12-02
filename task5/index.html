@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- <мета-кодировка="UTF-8"> -->
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+   <title>JS-Start. 5 задача</title>
+   <link rel="stylesheet" type="text/css" href="style.css"> <!--  -->
+</head>
+
+<body>
+   <header class="header"> <!-- заголовок -->
+      <div class="container">
+         <h2 class="Задание: Перехват формы">Задание: Перехват формы</h2>
+      </div>
+   </header>
+      <form action="#"> <!-- форма действие="#" -->
+         <label> <!-- метка -->
+            Текст
+            <input type="text" placeholder="Введите текст"> <!-- placeholder заполнитель -->
+         </label>
+         <br>
+         <br>
+         <button type="submit"> <!-- тип кнопки = "отправить" --> 
+            Вывести текст в консоль и удалить из формы
+         </button>
+      </form>
+      <hr>
+      <p>Введенный текст:</p>
+      <p id="duplicateField">"Текст" будет здесь! С первой буквы.</p> <!-- дубликат поля -->
+      <script src="script.js"></script>
+   </body>
+</html>

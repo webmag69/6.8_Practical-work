@@ -1,0 +1,16 @@
+html, body {
+    margin: 0; /* поле */
+    padding: 0; /* набивка */
+    font-family: Arial; /* семейство шрифтов: Arial */
+}
+
+.header {
+    background-color: #5ae818; /* фоновый цвет */
+}   
+
+h2 { text-align: center } /* текст в Тегах <h2> будет отцентрован */
+
+P { text-align: center } /* текст в Тегах <p> будет отцентрован */
+
+
+
